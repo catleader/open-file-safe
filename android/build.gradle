@@ -22,11 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    if (project.android.hasProperty('namespace')) {
-        namespace 'com.crazecoder.openfile"'
-    }
+    namespace 'com.crazecoder.openfile"'
 
-    compileSdk 34
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 16
